@@ -1,0 +1,1083 @@
+.about-page,
+.about-page * {
+    box-sizing: border-box;
+}
+
+.body
+{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0a0a0a;
+    color: white;
+    line-height: 1.6;
+}
+.about-page {
+    background: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.navigation {
+    background: #0f0f0f;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 0px 0px 1px 0px;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.logo-mark {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(252, 70, 107, 1) 100%
+    );
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+.m {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+    position: relative;
+}
+.maya-chen {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.home {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+}
+.about {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.work {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+}
+.contact {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+}
+.about-hero {
+    background: linear-gradient(
+            270deg,
+            rgba(10, 10, 10, 1) 0%,
+            rgba(26, 26, 46, 1) 100%
+    );
+    padding: 100px 60px 100px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 500px;
+    position: relative;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.about-me {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.passionate-about-creating-digital-experiences-that-matter {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 48px;
+    line-height: 52.8px;
+    font-weight: 800;
+    position: relative;
+    align-self: stretch;
+}
+.i-m-a-creative-designer-and-developer-with-5-years-of-experience-crafting-digital-products-that-users-love-my-journey-started-with-a-curiosity-about-how-design-and-technology-intersect-to-solve-real-problems {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.quick-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+._50 {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 800;
+    position: relative;
+}
+.projects {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+._5 {
+    color: #fc466b;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 800;
+    position: relative;
+}
+.years {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+._20 {
+    color: #4ecdc4;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 800;
+    position: relative;
+}
+.happy-clients {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 400px;
+    position: relative;
+}
+.profile-image {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(252, 70, 107, 1) 100%
+    );
+    border-radius: 140px;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 280px;
+    height: 280px;
+    position: relative;
+}
+.inner-image {
+    background: #333333;
+    border-radius: 136px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 272px;
+    height: 272px;
+    position: relative;
+}
+.user {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    overflow: visible;
+}
+.design-is-not-just-what-it-looks-like-design-is-how-it-works {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.9;
+    position: relative;
+    align-self: stretch;
+}
+.journey-section {
+    background: #0f0f0f;
+    padding: 80px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.section-header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.my-journey {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.from-curiosity-to-expertise {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.timeline-item {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.year-badge {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(0, 153, 204, 1) 100%
+    );
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+._2019 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 700;
+    position: relative;
+}
+.timeline-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+.started-as-ui-designer {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.began-my-career-at-a-startup-learning-the-fundamentals-of-user-centered-design-and-working-closely-with-developers-to-bring-ideas-to-life {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.year-badge2 {
+    background: linear-gradient(
+            225deg,
+            rgba(252, 70, 107, 1) 0%,
+            rgba(204, 51, 102, 1) 100%
+    );
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+._2021 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 700;
+    position: relative;
+}
+.became-full-stack-designer {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.expanded-into-frontend-development-learning-react-and-modern-web-technologies-to-better-collaborate-with-engineering-teams {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.year-badge3 {
+    background: linear-gradient(
+            225deg,
+            rgba(78, 205, 196, 1) 0%,
+            rgba(51, 153, 153, 1) 100%
+    );
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+._2023 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 700;
+    position: relative;
+}
+.senior-product-designer {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.leading-design-systems-and-mentoring-junior-designers-while-working-on-complex-b-2-b-saa-s-products-used-by-thousands-of-users {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.skills-tools {
+    background: #0a0a0a;
+    padding: 80px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.skills-tools2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.technologies-i-work-with-daily {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.design-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.design {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.tool-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.tool {
+    background: #1a1a1a;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    padding: 0px 16px 0px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 36px;
+    position: relative;
+}
+.figma {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.adobe-xd {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.sketch {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.principle {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.development-tools {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.development {
+    color: #fc466b;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.react {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.next-js {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.type-script {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.tailwind {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.framer-motion {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 500;
+    position: relative;
+}
+.personal-touch {
+    background: #0f0f0f;
+    padding: 80px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.beyond-work {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.what-makes-me-tick {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.interests-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.interest-card {
+    background: #1a1a1a;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 280px;
+    height: 200px;
+    position: relative;
+}
+.interest-icon {
+    background: linear-gradient(
+            225deg,
+            rgba(255, 107, 107, 1) 0%,
+            rgba(254, 202, 87, 1) 100%
+    );
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.camera {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
+.interest-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.photography {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.capturing-moments-and-exploring-composition-in-the-real-world {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.interest-icon2 {
+    background: linear-gradient(
+            225deg,
+            rgba(78, 205, 196, 1) 0%,
+            rgba(68, 160, 141, 1) 100%
+    );
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.mountain {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
+.hiking {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.finding-inspiration-in-nature-and-clearing-my-mind-for-creative-work {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.interest-icon3 {
+    background: linear-gradient(
+            225deg,
+            rgba(168, 237, 234, 1) 0%,
+            rgba(254, 214, 227, 1) 100%
+    );
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.coffee {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: visible;
+}
+.coffee2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.fueling-late-night-design-sessions-and-morning-brainstorming {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.cta-section {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(252, 70, 107, 1) 100%
+    );
+    padding: 80px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.let-s-create-something-amazing {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 800;
+    position: relative;
+    align-self: stretch;
+}
+.ready-to-turn-your-ideas-into-beautiful-functional-digital-experiences {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    opacity: 0.9;
+    position: relative;
+    align-self: stretch;
+}
+.cta-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.primary-cta {
+    background: #ffffff;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 180px;
+    height: 56px;
+    position: relative;
+}
+.start-a-project {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+}
+.secondary-cta {
+    border-radius: 28px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 160px;
+    height: 56px;
+    position: relative;
+}
+.download-cv {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 500;
+    position: relative;
+}
+.download {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-image {
+    width: 100%;
+    height: 100%;
+}
+
+.user {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.case-study {
+        font-size: 15px;
+        font-weight: 800;
+        margin-bottom: 0px;
+        background: linear-gradient(225deg, #00f5ff 0%, #fc466b 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
