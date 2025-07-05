@@ -1,0 +1,1323 @@
+.blog-page,
+.blog-page * {
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.blog-page {
+    background: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+.case-study a {
+    color: white;
+    text-decoration: none;
+}
+body
+{
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0a0a0a;
+    color: white;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background: #0f0f0f;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 0px 0px 1px 0px;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.logo-mark {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(252, 70, 107, 1) 100%
+    );
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+.m {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+    position: relative;
+}
+.maya-chen {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+}
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.about {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+}
+.home {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+    position: relative;
+}
+.blog {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    position: relative;
+}
+.blog-hero {
+    background: linear-gradient(
+            270deg,
+            rgba(10, 10, 10, 1) 0%,
+            rgba(26, 26, 46, 1) 100%
+    );
+    padding: 100px 60px 100px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 800px;
+    position: relative;
+}
+.blog-meta {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.category-tag {
+    background: #00f5ff;
+    border-radius: 16px;
+    opacity: 0.2;
+    padding: 0px 12px 0px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 32px;
+    position: relative;
+}
+.full-stack-development {
+    color: #00f5ff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.december-15-2024-12-min-read {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+}
+.building-a-modern-admin-dashboard-with-laravel-nuxt-js-my-sql {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-ExtraBold", sans-serif;
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 800;
+    position: relative;
+    align-self: stretch;
+}
+.a-comprehensive-guide-to-creating-a-scalable-secure-and-user-friendly-admin-dashboard-using-modern-web-technologies-learn-how-to-integrate-laravel-s-robust-backend-with-nuxt-js-s-powerful-frontend-capabilities {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.author-info {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.author-avatar {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(252, 70, 107, 1) 100%
+    );
+    border-radius: 24px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.inner-avatar {
+    background: #333333;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    position: relative;
+}
+.user {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.author-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.full-stack-developer-designer {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+}
+.blog-content {
+    background: #0f0f0f;
+    padding: 80px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 800px;
+    position: relative;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.introduction2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.in-today-s-digital-landscape-admin-dashboards-are-the-backbone-of-most-web-applications-they-provide-administrators-with-the-tools-to-manage-users-content-analytics-and-system-settings-efficiently-in-this-comprehensive-tutorial-we-ll-build-a-modern-responsive-admin-dashboard-using-three-powerful-technologies {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.tech-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.tech-item {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.tech-icon {
+    background: #ff6b35;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.server {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+}
+.tech-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+.laravel-10 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+}
+.robust-php-framework-for-our-api-backend {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+}
+.tech-icon2 {
+    background: #00d8ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.layout {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+}
+.nuxt-js-3 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+}
+.vue-js-framework-for-server-side-rendering {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+}
+.tech-icon3 {
+    background: #4479a1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.database {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+}
+.my-sql-8-0 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+}
+.reliable-relational-database-for-data-storage {
+    color: #888888;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+}
+.project-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.what-we-ll-build {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.our-admin-dashboard-will-include-essential-features-that-every-modern-application-needs {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.features-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.feature-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.feature-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    height: 200px;
+    position: relative;
+}
+.feature-icon {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(0, 153, 204, 1) 100%
+    );
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.users {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.feature-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.user-management {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.crud-operations-for-user-accounts-with-role-based-permissions {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.feature-icon2 {
+    background: linear-gradient(
+            225deg,
+            rgba(252, 70, 107, 1) 0%,
+            rgba(204, 51, 102, 1) 100%
+    );
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.bar-chart-3 {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.analytics-dashboard {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.real-time-charts-and-metrics-with-interactive-visualizations {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.feature-icon3 {
+    background: linear-gradient(
+            225deg,
+            rgba(78, 205, 196, 1) 0%,
+            rgba(51, 153, 153, 1) 100%
+    );
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.shield-check {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.authentication {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.secure-jwt-based-auth-with-password-reset-and-2-fa {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.feature-icon4 {
+    background: linear-gradient(
+            225deg,
+            rgba(254, 202, 87, 1) 0%,
+            rgba(255, 159, 243, 1) 100%
+    );
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+.settings {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.system-settings {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.configurable-app-settings-with-real-time-updates {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.architecture-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.system-architecture {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.before-diving-into-the-code-let-s-understand-how-our-three-technologies-work-together-to-create-a-scalable-and-maintainable-system {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.architecture-diagram {
+    background: #1a1a1a;
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 300px;
+    position: relative;
+}
+.diagram-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.frontend-layer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.frontend-box {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 216, 255, 1) 0%,
+            rgba(0, 153, 204, 1) 100%
+    );
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 180px;
+    height: 80px;
+    position: relative;
+}
+.nuxt-js-frontend {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 600;
+    position: relative;
+}
+.ssr-spa-pwa {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    opacity: 0.8;
+    position: relative;
+}
+.arrow-down {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.api-layer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.api-box {
+    background: linear-gradient(
+            225deg,
+            rgba(255, 107, 53, 1) 0%,
+            rgba(204, 51, 102, 1) 100%
+    );
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 180px;
+    height: 80px;
+    position: relative;
+}
+.laravel-api {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 600;
+    position: relative;
+}
+.rest-jwt-validation {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    opacity: 0.8;
+    position: relative;
+}
+.arrow-down2 {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: visible;
+}
+.database-layer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.db-box {
+    background: linear-gradient(
+            225deg,
+            rgba(68, 121, 161, 1) 0%,
+            rgba(44, 82, 130, 1) 100%
+    );
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 180px;
+    height: 80px;
+    position: relative;
+}
+.my-sql-database {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 600;
+    position: relative;
+}
+.migrations-relations {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 400;
+    opacity: 0.8;
+    position: relative;
+}
+.implementation-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.implementation-guide {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 700;
+    position: relative;
+    align-self: stretch;
+}
+.let-s-break-down-the-development-process-into-manageable-steps {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.steps-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.step-item {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.step-number {
+    background: linear-gradient(
+            225deg,
+            rgba(0, 245, 255, 1) 0%,
+            rgba(0, 153, 204, 1) 100%
+    );
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+._01 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+    position: relative;
+}
+.step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+}
+.laravel-backend-setup {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.initialize-laravel-project-configure-database-connections-and-set-up-authentication-with-sanctum-create-models-migrations-and-api-controllers-for-user-management {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.code-tags {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.tag {
+    background: #333333;
+    border-radius: 14px;
+    border-style: solid;
+    border-color: #555555;
+    border-width: 1px;
+    padding: 0px 12px 0px 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 28px;
+    position: relative;
+}
+.laravel {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.sanctum {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.eloquent {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.step-number2 {
+    background: linear-gradient(
+            225deg,
+            rgba(252, 70, 107, 1) 0%,
+            rgba(204, 51, 102, 1) 100%
+    );
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+._02 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+    position: relative;
+}
+.database-design-migrations {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.design-the-database-schema-with-proper-relationships-create-migrations-for-users-roles-permissions-and-dashboard-entities-implement-seeders-for-initial-data {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.my-sql {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.migrations {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.relationships {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.step-number3 {
+    background: linear-gradient(
+            225deg,
+            rgba(78, 205, 196, 1) 0%,
+            rgba(51, 153, 153, 1) 100%
+    );
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+._03 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+    position: relative;
+}
+.nuxt-js-frontend-development {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.set-up-nuxt-js-with-type-script-configure-authentication-middleware-and-create-responsive-dashboard-layouts-implement-state-management-with-pinia {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.nuxt-js {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.type-script {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.pinia {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.step-number4 {
+    background: linear-gradient(
+            225deg,
+            rgba(254, 202, 87, 1) 0%,
+            rgba(255, 159, 243, 1) 100%
+    );
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+._04 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 700;
+    position: relative;
+}
+.integration-testing {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.connect-frontend-and-backend-with-axios-implement-error-handling-add-loading-states-and-create-comprehensive-tests-for-both-api-endpoints-and-ui-components {
+    color: #b0b0b0;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.axios {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.php-unit {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
+.vitest {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Inter-Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14.4px;
+    font-weight: 500;
+    position: relative;
+}
